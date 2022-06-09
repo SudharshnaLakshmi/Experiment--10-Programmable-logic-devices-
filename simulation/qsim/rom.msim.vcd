@@ -1,0 +1,257 @@
+$comment
+	File created using the following command:
+		vcd file rom.msim.vcd -direction
+$end
+$date
+	Thu Jun 09 15:16:13 2022
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module rom_vlg_vec_tst $end
+$var reg 1 ! CS $end
+$var reg 4 " addr [3:0] $end
+$var wire 1 # out [15] $end
+$var wire 1 $ out [14] $end
+$var wire 1 % out [13] $end
+$var wire 1 & out [12] $end
+$var wire 1 ' out [11] $end
+$var wire 1 ( out [10] $end
+$var wire 1 ) out [9] $end
+$var wire 1 * out [8] $end
+$var wire 1 + out [7] $end
+$var wire 1 , out [6] $end
+$var wire 1 - out [5] $end
+$var wire 1 . out [4] $end
+$var wire 1 / out [3] $end
+$var wire 1 0 out [2] $end
+$var wire 1 1 out [1] $end
+$var wire 1 2 out [0] $end
+$var wire 1 3 sampler $end
+$scope module i1 $end
+$var wire 1 4 gnd $end
+$var wire 1 5 vcc $end
+$var wire 1 6 unknown $end
+$var tri1 1 7 devclrn $end
+$var tri1 1 8 devpor $end
+$var tri1 1 9 devoe $end
+$var wire 1 : out[0]~output_o $end
+$var wire 1 ; out[1]~output_o $end
+$var wire 1 < out[2]~output_o $end
+$var wire 1 = out[3]~output_o $end
+$var wire 1 > out[4]~output_o $end
+$var wire 1 ? out[5]~output_o $end
+$var wire 1 @ out[6]~output_o $end
+$var wire 1 A out[7]~output_o $end
+$var wire 1 B out[8]~output_o $end
+$var wire 1 C out[9]~output_o $end
+$var wire 1 D out[10]~output_o $end
+$var wire 1 E out[11]~output_o $end
+$var wire 1 F out[12]~output_o $end
+$var wire 1 G out[13]~output_o $end
+$var wire 1 H out[14]~output_o $end
+$var wire 1 I out[15]~output_o $end
+$var wire 1 J CS~input_o $end
+$var wire 1 K CS~inputclkctrl_outclk $end
+$var wire 1 L addr[2]~input_o $end
+$var wire 1 M addr[1]~input_o $end
+$var wire 1 N addr[3]~input_o $end
+$var wire 1 O Decoder2~0_combout $end
+$var wire 1 P out[5]~reg0_q $end
+$var wire 1 Q addr[0]~input_o $end
+$var wire 1 R Decoder1~0_combout $end
+$var wire 1 S out[6]~reg0feeder_combout $end
+$var wire 1 T out[6]~reg0_q $end
+$var wire 1 U out[7]~reg0_q $end
+$var wire 1 V Decoder1~1_combout $end
+$var wire 1 W out[8]~reg0_q $end
+$var wire 1 X WideOr5~0_combout $end
+$var wire 1 Y out[9]~reg0_q $end
+$var wire 1 Z WideOr4~0_combout $end
+$var wire 1 [ out[10]~reg0_q $end
+$var wire 1 \ WideOr3~0_combout $end
+$var wire 1 ] out[11]~reg0_q $end
+$var wire 1 ^ WideOr2~0_combout $end
+$var wire 1 _ out[12]~reg0_q $end
+$var wire 1 ` WideOr1~0_combout $end
+$var wire 1 a out[13]~reg0_q $end
+$var wire 1 b WideOr0~0_combout $end
+$var wire 1 c out[14]~reg0_q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b1011 "
+12
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+x3
+04
+15
+x6
+17
+18
+19
+1:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+1M
+1N
+0O
+0P
+1Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+1Z
+0[
+0\
+0]
+0^
+0_
+1`
+0a
+0b
+0c
+$end
+#50000
+1!
+1J
+1K
+03
+#100000
+0!
+0J
+0K
+13
+1[
+1a
+1D
+1G
+1(
+1%
+#150000
+1!
+1J
+1K
+03
+#200000
+0!
+0J
+0K
+13
+#250000
+1!
+1J
+1K
+03
+#300000
+0!
+0J
+0K
+13
+#350000
+1!
+1J
+1K
+03
+#400000
+0!
+0J
+0K
+13
+#450000
+1!
+1J
+1K
+03
+#500000
+0!
+0J
+0K
+13
+#550000
+1!
+1J
+1K
+03
+#600000
+0!
+0J
+0K
+13
+#650000
+1!
+1J
+1K
+03
+#700000
+0!
+0J
+0K
+13
+#750000
+1!
+1J
+1K
+03
+#800000
+0!
+0J
+0K
+13
+#850000
+1!
+1J
+1K
+03
+#900000
+0!
+0J
+0K
+13
+#950000
+1!
+1J
+1K
+03
+#1000000
